@@ -1,0 +1,85 @@
+.home-glass {
+  background: linear-gradient(
+    to right bottom,
+    rgba(23, 25, 35, 0.7),
+    rgba(23, 25, 35, 0.3)
+  );
+  z-index: 2;
+  border-radius: 2rem;
+  backdrop-filter: blur(2rem);
+  padding: 50px;
+}
+.home-glass > * {
+  margin-top: 30px;
+}
+
+.home-head {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px 0 30px;
+}
+
+.dropdown-section {
+  display: flex;
+  justify-content: space-between;
+}
+.dropdown1 {
+  width: 48%;
+}
+.dropdown2 {
+  width: 48%;
+}
+
+.home-pattarai-text {
+  margin-left: 6px;
+  font-family: Montserrat;
+  font-weight: 300;
+  letter-spacing: 15px;
+}
+
+.home-grievance-text {
+  font-family: Montserrat;
+  font-weight: 800;
+  font-size: 3em;
+}
+
+.home-button {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-logout-btn {
+  font-weight: 300 !important;
+  border: 1px solid #15e6ca !important;
+  color: #fafafa !important;
+  background-color: #1a1d2500 !important;
+}
+
+.home-img {
+  height: 5rem;
+  width: 5rem;
+}
+
+.home-circle1 {
+  left: 14%;
+  bottom: 7%;
+}
+.home-circle2 {
+  right: 15%;
+  top: 29%;
+}
+
+@media (max-width: 640px) {
+  .home-pattarai-text {
+    margin-left: 2px;
+    letter-spacing: 10px;
+    font-size: 10px;
+  }
+  .home-grievance-text {
+    font-size: 25px;
+  }
+  .home-img {
+    height: 4rem;
+    width: 4rem;
+  }
+}
